@@ -1,10 +1,18 @@
 <?PHP // 2013 Zilli custom - pass-redir
 if (isset($_POST['pass'])){
+<<<<<<< HEAD
 $pass01 = "genova"; // password da configurare
 $pass02 = "milano";
 $pass03 = "firenze";
 if ($_POST['pass'] == "$pass01"){
 	header ("location:http://genova");  // url da configurare
+=======
+$pass01 = "genova";
+$pass02 = "milano";
+$pass03 = "firenze";
+if ($_POST['pass'] == "$pass01"){
+	header ("location:http://genova"); 
+>>>>>>> parent of 91ae249... description update //
 } elseif ($_POST['pass'] == "$pass02"){
 	header ("location:http://milano"); 
 } elseif ($_POST['pass'] == "$pass03"){	
